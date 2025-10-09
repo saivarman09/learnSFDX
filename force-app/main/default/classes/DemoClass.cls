@@ -24,11 +24,9 @@ public class DemoClass {
         System.debug('Check for car : ' + cars.containskey(2));
         cars.put(5, 'Tesla');
         System.debug('Total Cars Size : ' + cars.size());
-        
-        
-        
-        
-        
+    }   
+    Public static void greet() {
+        System.debug('DEV branch');
     }
     
 }
