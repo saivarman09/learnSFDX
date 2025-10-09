@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Either_Mobile_or_Phone_is_required</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( 
+ISNEW(),
+RecordType.DeveloperName = &apos;Alumnii&apos;,
+ISBLANK( Email__c ),ISBLANK( Mobile__c )
+)</errorConditionFormula>
+    <errorMessage>Email or Mobile is required</errorMessage>
+</ValidationRule>

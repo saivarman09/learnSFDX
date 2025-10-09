@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Restict_record_type_for_profile</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( ISNEW(),
+   RecordType.DeveloperName = &apos;Enrolling&apos;,
+   $Profile.Name = &apos;Principal&apos;
+)</errorConditionFormula>
+    <errorMessage>restrict record type for principal</errorMessage>
+</ValidationRule>

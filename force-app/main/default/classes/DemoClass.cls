@@ -1,0 +1,34 @@
+public class DemoClass {
+    
+    Public Static Void demo(){
+        List<String> Colors = new List<String>();
+        Colors.add('green');
+        Colors.add('blue');
+        Colors.add('white');
+        Colors.add('orange');
+        
+        System.debug('Colors are: ' + Colors.get(1));
+        
+        Map<Integer, String> cars = new Map<Integer, String>();
+        
+        cars.put(1, 'Audi');
+        cars.put(2, 'Ferrari');
+        cars.put(3, 'Lambo');
+        cars.put(4, 'Mercedes');
+        
+        
+        System.debug('Available Cars are: ' + cars.get(4));
+        cars.put(3, 'Porsche');
+        System.debug(' Check for Cars : ' + cars.get(3));
+        
+        System.debug('Check for car : ' + cars.containskey(2));
+        cars.put(5, 'Tesla');
+        System.debug('Total Cars Size : ' + cars.size());
+        
+        
+        
+        
+        
+    }
+    
+}

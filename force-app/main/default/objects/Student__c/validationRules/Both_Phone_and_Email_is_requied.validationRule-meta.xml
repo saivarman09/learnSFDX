@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Both_Phone_and_Email_is_requied</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( ISNEW(),
+   RecordType.DeveloperName = &apos;Enrolling&apos;,  
+   OR(
+     ISBLANK(Email__c) ,  ISBLANK(Mobile__c )
+     )
+)</errorConditionFormula>
+    <errorMessage>Both Mobile and Email is required</errorMessage>
+</ValidationRule>
