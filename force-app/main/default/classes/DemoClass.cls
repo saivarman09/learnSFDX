@@ -2,7 +2,7 @@ public class DemoClass {
     
     Public Static Void demo(){
         List<String> Colors = new List<String>();
-        Colors.add('green');
+        Colors.add('red');
         Colors.add('blue');
         Colors.add('white');
         Colors.add('orange');
