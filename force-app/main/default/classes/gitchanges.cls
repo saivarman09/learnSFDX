@@ -7,6 +7,19 @@ public with sharing class gitchanges {
 
         System.debug("Hello From SecondFeature Branch");
 
+    public static void Account() {
+       List<Account> accList = new List<Account>();
+           for(Integer i = 0; i < 10; i++){
+            Account acc = new Account();
+            acc.Name = 'Test Account'+ i;
+            acc.Phone = '1234567890';
+            accList.add(acc);
+           }
+        if(!accList.isEmpty()){
+            insert accList;
+        }
+        System.debug('Account created');
+    }
 
 
     }
