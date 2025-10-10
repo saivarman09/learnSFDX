@@ -15,6 +15,7 @@ public class DemoClass {
         cars.put(2, 'Ferrari');
         cars.put(3, 'Lambo');
         cars.put(4, 'Mercedes');
+     
         
         
         System.debug('Available Cars are: ' + cars.get(4));
@@ -29,7 +30,5 @@ public class DemoClass {
     Public static void greet() {
         System.debug('DEV branch');
         System.debug('Feature branch');
-        System.debug('Altrnate changes');
-    }
-    
+        System.debug('Altrnate changes - with updated lines'); 
 }
