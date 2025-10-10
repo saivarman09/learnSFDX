@@ -30,5 +30,6 @@ public class DemoClass {
     Public static void greet() {
         System.debug('DEV branch');
         System.debug('Feature branch');
-        System.debug('Altrnate changes - with updated lines'); 
+        System.debug('Altrnate changes - Feature Branch Updated'); 
+    }
 }
