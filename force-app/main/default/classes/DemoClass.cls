@@ -32,4 +32,7 @@ public class DemoClass {
         System.debug('Feature branch');
         System.debug('Altrnate changes - Feature Branch Updated'); 
     }
+    Public static void rebaseanother() {
+        System.debug('Rebased onto main instead after dev');
+    }
 }
