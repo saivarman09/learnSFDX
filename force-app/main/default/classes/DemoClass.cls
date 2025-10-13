@@ -33,6 +33,9 @@ public class DemoClass {
         System.debug('Altrnate changes - Feature Branch Updated'); 
     }
     Public static void rebaseanother() {
-        System.debug('Rebased onto main instead after dev');
+        //Adding a comment//
+            System.debug('Rebased onto main instead after dev');
+        //Attaching debug log//
+            System.debug('Debug Log');
     }
 }
