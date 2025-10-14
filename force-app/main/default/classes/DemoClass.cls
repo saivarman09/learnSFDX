@@ -37,4 +37,5 @@ public class DemoClass {
     }
     System.debug('Rebase Check');
     System.debug('Reuse');
+    System.debug('Sample check');
 }
