@@ -35,4 +35,5 @@ public class DemoClass {
     Public static void rebaseanother() {
         System.debug('Rebased onto main instead after dev');
     }
+    System.debug('Rebase Check');
 }

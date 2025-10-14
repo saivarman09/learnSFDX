@@ -21,11 +21,7 @@ public with sharing class gitchanges {
         System.debug('Account created');
         System.debug('Acc is Created' + accList);      
     }
-<<<<<<< HEAD
      System.debug('For Merge FF branch Updated');
-=======
-     System.debug('For Merge FF branch ');
      System.debug('Feature to dev - using mergeFF');
->>>>>>> ba787a3 (FeatureMergerFF)
     }
 }
