@@ -37,6 +37,9 @@ public class DemoClass {
     }
     System.debug('Rebase Check');
     System.debug('Reuse');
+<<<<<<< HEAD
     System.debug('Test push');
+=======
+>>>>>>> 189652a6e800b485a0f3322facdb370e0f4e76fc
     System.debug('Sample check - usage');
 }
