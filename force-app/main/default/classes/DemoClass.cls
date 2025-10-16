@@ -1,7 +1,11 @@
 public class DemoClass {
 
+<<<<<<< HEAD
     System.debug('Change base conflict check');
     
+=======
+    System.debug('For base change');
+>>>>>>> 87bdb62 (For base command)
     Public Static Void demo(){
         List<String> Colors = new List<String>();
         Colors.add('red');
