@@ -1,4 +1,6 @@
 public class DemoClass {
+
+    System.debug('Change base conflict check');
     
     Public Static Void demo(){
         List<String> Colors = new List<String>();
