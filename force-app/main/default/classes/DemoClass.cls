@@ -5,7 +5,12 @@ public class DemoClass {
     
 =======
     System.debug('For base change');
+<<<<<<< HEAD
 >>>>>>> 87bdb62 (For base command)
+=======
+    System.debug('For Another base change');
+
+>>>>>>> 71c988e ( updated)
     Public Static Void demo(){
         List<String> Colors = new List<String>();
         Colors.add('red');
