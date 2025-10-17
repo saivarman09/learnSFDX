@@ -1,6 +1,10 @@
 public class DemoClass {
     
     System.debug('Testing change parent branch');
+    System.debug('Change base conflict check');
+    System.debug('For base change');
+    System.debug('For Another base change');
+    System.debug('Merge Conflict');
     Public Static Void demo(){
         List<String> Colors = new List<String>();
         Colors.add('red');
@@ -33,4 +37,12 @@ public class DemoClass {
         System.debug('Feature branch');
         System.debug('Altrnate changes - Feature Branch Updated'); 
     }
+    Public static void rebaseanother() {
+        System.debug('Rebased onto main instead after dev');
+    }
+    "Test"
+    System.debug('Rebase Check');
+    System.debug('Reuse');
+    System.debug('Sample check');
+    System.debug('Test Merge');
 }
