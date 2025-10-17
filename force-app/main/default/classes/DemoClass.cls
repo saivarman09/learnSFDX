@@ -3,6 +3,7 @@ public class DemoClass {
     System.debug('Change base conflict check');
     System.debug('For base change');
     System.debug('For Another base change');
+    System.debug('Merge Conflict');
     Public Static Void demo(){
         List<String> Colors = new List<String>();
         Colors.add('red');
