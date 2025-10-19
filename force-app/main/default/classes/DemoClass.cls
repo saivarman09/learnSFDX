@@ -1,10 +1,14 @@
 public class DemoClass {
     
+<<<<<<< HEAD
     System.debug('Testing change parent branch');
     System.debug('Change base conflict check');
     System.debug('For base change');
     System.debug('For Another base change');
     System.debug('Merge Conflict');
+=======
+    Test cherry pick;
+>>>>>>> cde97b9 (Cheery)
     Public Static Void demo(){
         List<String> Colors = new List<String>();
         Colors.add('red');
