@@ -5,7 +5,7 @@ public with sharing class gitchanges {
 
         System.debug('Hello From Dev branch, Its Updated');
 
-        System.debug("Hello From SecondFeature Branch");
+        System.debug("Hello From Updated X test second Branch");
 
     public static void Account() {
        List<Account> accList = new List<Account>();
