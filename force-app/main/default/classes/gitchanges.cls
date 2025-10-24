@@ -23,5 +23,6 @@ public with sharing class gitchanges {
     }
     Reflog check 1
     Reflog check 2
+    Reflog check 3
     }
 }
